@@ -1,0 +1,21 @@
+p {
+    color: rgba(90,250,180,0.8);
+    font-size: : 30px;
+   /* font-family: 1em; */
+    
+    /*
+    serif
+    sans-serif
+    cursive
+    */
+    
+    font-family: Helvetica, Arial, serif;
+    font-weight:bold;
+    text-align:center;
+        
+}
+
+h1
+{
+   color:blue; font-style: oblique;
+}
