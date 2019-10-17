@@ -1,6 +1,9 @@
 body {
 	background-color: white;
 	color: white;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
 #Dark 
 {
@@ -10,7 +13,7 @@ body {
 p {
     color: blue;
     font-size: : 30px;
-	background-color: rgba(110, 255, 110,0.5);
+	background-color: rgba(0, 255, 0,0.8);
     font-family: Helvetica, Arial, serif;
     font-weight:bold;
     text-align:center;   
@@ -23,15 +26,11 @@ h1 {
 }
 
 h2 {
-   color:green; 
+   color:blue; 
+   font-family: compact, Arial, serif;
+   
 
    
-}
-
-h3 {
-   color:grey; 
-   font-style: oblique;
-   background-color: orange;
 }
 
 h4 {
@@ -47,5 +46,11 @@ h4 {
 #bienvenue{
 	background-color: red;
 	color: white;
-	margin-top: -8px;
+	margin-top: 5px;
 }
+
+/* #theme
+{
+	// margin-top: 800 px;
+	width: 30%;
+} */

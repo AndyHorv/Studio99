@@ -1,34 +1,30 @@
 body {
 	background-color: black;
 	color: white;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 p {
-    color: blue;
+    color: rgb(30, 145, 255);
     font-size: : 30px;
-	background-color: rgba(110, 255, 110,0.5);
+	background-color: rgba(100, 100, 100, 0.3);
     font-family: Helvetica, Arial, serif;
     font-weight:bold;
     text-align:center;   
 }
 
 h1 {
-   color:black; 
+   color:white; 
    font-style: bold;
-   background-color: yellow;
+   background-color: rgba(80, 80, 80,0.6);
 }
 
 h2 {
-   color:pink; 
+   color:rgba(175, 175, 175,1); 
 
 }
-
-h3 {
-   color:grey; 
-   font-style: oblique;
-   background-color: orange;
-}
-
 h4 {
    color:grey; 
    font-style: oblique;
@@ -40,7 +36,12 @@ h4 {
 }
 
 #bienvenue{
-	background-color: red;
+	background-color: rgb(30, 145, 255);
 	color: white;
-	margin-top: -8px;
+	margin-top: 5px;
 }
+/* #theme
+{
+	// margin-top: 800 px;
+	width: 30%;
+} */
