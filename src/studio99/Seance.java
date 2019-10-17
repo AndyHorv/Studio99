@@ -1,7 +1,10 @@
 package studio99;
+import java.io.Serializable;
 import java.time.LocalDate;
 
-public class Seance {
+@Entity
+@Table(name="seance")
+public class Seance implements Serializable {
 	private int id;
 	private LocalDate timestamp;
 	private int debut;
@@ -18,6 +21,7 @@ public class Seance {
 		return "Seance [id=" + id + ", timestamp=" + timestamp + ", debut=" + debut + "]";
 	}
 	
+	@Id
 	public int getId() {
 		return id;
 	}

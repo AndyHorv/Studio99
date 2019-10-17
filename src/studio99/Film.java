@@ -1,10 +1,14 @@
 package studio99;
 
-public class Film {
+import java.io.Serializable;
+
+@Entity
+@Table(name="film")
+public class Film implements Serializable {
 	private int id;
 	private String titre;
 	private int duree;
-	
+
 	public Film(int id, String titre, int duree) {
 		super();
 		this.id = id;
@@ -17,6 +21,7 @@ public class Film {
 		return "Film [id=" + id + ", titre=" + titre + ", duree=" + duree + "]";
 	}
 	
+	@Id
 	public int getId() {
 		return id;
 	}
