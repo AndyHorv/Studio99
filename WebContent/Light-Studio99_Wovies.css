@@ -1,0 +1,51 @@
+body {
+	background-color: white;
+	color: white;
+}
+#Dark 
+{
+	position : center-left
+}
+
+p {
+    color: blue;
+    font-size: : 30px;
+	background-color: rgba(110, 255, 110,0.5);
+    font-family: Helvetica, Arial, serif;
+    font-weight:bold;
+    text-align:center;   
+}
+
+h1 {
+   color:black; 
+   font-style: bold;
+   background-color: yellow;
+}
+
+h2 {
+   color:green; 
+
+   
+}
+
+h3 {
+   color:grey; 
+   font-style: oblique;
+   background-color: orange;
+}
+
+h4 {
+   color:grey; 
+   font-style: oblique;
+   background-color: orange;
+}
+
+#main_pic {
+	width: 100%;
+}
+
+#bienvenue{
+	background-color: red;
+	color: white;
+	margin-top: -8px;
+}
