@@ -17,6 +17,12 @@ h1 {
    font-style: bold;
    background-color: yellow;
 }
+
+h2 {
+   color:pink; 
+
+}
+
 h3 {
    color:grey; 
    font-style: oblique;

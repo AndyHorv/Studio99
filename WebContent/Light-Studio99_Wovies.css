@@ -2,6 +2,10 @@ body {
 	background-color: white;
 	color: white;
 }
+#Dark 
+{
+	position : center-left
+}
 
 p {
     color: blue;
@@ -17,6 +21,13 @@ h1 {
    font-style: bold;
    background-color: yellow;
 }
+
+h2 {
+   color:green; 
+
+   
+}
+
 h3 {
    color:grey; 
    font-style: oblique;
