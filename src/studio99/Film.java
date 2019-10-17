@@ -2,14 +2,18 @@ package studio99;
 
 import java.io.Serializable;
 
-@Entity
-@Table(name="film")
-public class Film implements Serializable {
-	private int id;
-	private String titre;
-	private int duree;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
-	public Film(int id, String titre, int duree) {
+@Entity
+//@Table(name="film")
+public class Film implements Serializable {
+	private Integer id;
+	private String titre;
+	private Integer duree;
+	
+	public Film(Integer id, String titre, Integer duree) {
 		super();
 		this.id = id;
 		this.titre = titre;
@@ -22,24 +26,22 @@ public class Film implements Serializable {
 	}
 	
 	@Id
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
-
 	public String getTitre() {
 		return titre;
 	}
 	public void setTitre(String titre) {
 		this.titre = titre;
 	}
-	public int getDuree() {
+	public Integer getDuree() {
 		return duree;
 	}
-	public void setDuree(int duree) {
+	public void setDuree(Integer duree) {
 		this.duree = duree;
 	}
-	
 }

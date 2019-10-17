@@ -1,27 +1,34 @@
 package studio99;
 
 public class Place {
-	private int id;
+	private Integer id;
 	private boolean disponible;
-
-	public Place(int id) {
+	
+	public Place(Integer id, boolean disponible) {
 		super();
 		this.id = id;
+		this.disponible = disponible;
 	}
 
-	public int getId() {
+	@Override
+	public String toString() {
+		return "Place [id=" + id + ", disponible=" + disponible + "]";
+	}
+
+	public Integer getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
-	
+
 	public boolean isDisponible() {
 		return disponible;
 	}
-	
+
 	public void setDisponible(boolean disponible) {
 		this.disponible = disponible;
 	}
+
 }
