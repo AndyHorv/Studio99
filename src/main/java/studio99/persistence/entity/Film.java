@@ -1,4 +1,4 @@
-package studio99;
+package studio99.persistence.entity;
 
 import java.io.Serializable;
 
