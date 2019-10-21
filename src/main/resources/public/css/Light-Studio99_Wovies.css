@@ -12,7 +12,8 @@ p {
 	background-color: rgba(0, 255, 0,0.8);
     font-family: Helvetica, Arial, serif;
     font-weight:bold;
-    text-align:center;   
+    text-align:center;
+
 }
 
 h1 {
@@ -26,7 +27,14 @@ h2 {
    font-family: compact, Arial, serif;
 
 }
-
+h3
+{
+	color: blue;
+    font-size: : 15px;
+    font-family: arial, Arial, serif;
+    font-weight: oblique;
+   
+}
 h4 {
    color:grey; 
    font-style: oblique;
@@ -45,8 +53,9 @@ h4 {
 	margin-top: 5px;
 }
 
-/* #theme
-{
-	// margin-top: 800 px;
-	width: 30%;
-} */
+#en_haut {
+   position: fixed;
+   top: 10px;
+   right: 150px;
+   color: red;
+}
