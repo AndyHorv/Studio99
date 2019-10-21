@@ -23,13 +23,11 @@ pipeline {
                 bat "mvn -DskipTests package"
             }
         }
-        /*
         stage('deliver'){
             steps{
-                copy 
+                copy C:\Users\User\.jenkins\workspace\ProjetDeFino\target\Studio99-0.0.1-SNAPSHOT.jar C:\Users\User\ProjetDeFin\DeliveryLocation
             }
         }
-        */
     }
     post{
     	always {
