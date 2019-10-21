@@ -13,13 +13,16 @@ public class Film implements Serializable {
 	private String titre;
 	private Integer duree;
 	
-	public Film(Integer id, String titre, Integer duree) {
+	public Film() {
 		super();
-		this.id = id;
+	}
+
+	public Film(String titre, Integer duree) {
+		super();
 		this.titre = titre;
 		this.duree = duree;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "Film [id=" + id + ", titre=" + titre + ", duree=" + duree + "]";

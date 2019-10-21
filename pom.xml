@@ -53,11 +53,6 @@
 			<artifactId>tomcat-jdbc</artifactId>
 		</dependency>
 		
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-security</artifactId>
-		</dependency>
-		
 		<!--  in order to test Spring Boot -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

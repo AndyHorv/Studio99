@@ -17,9 +17,8 @@
 		<script>
 			var urlFilmRestApi = "http://localhost:8080/api/film"
 			$.post(urlFilmRestApi, {
-				"title": "Conan le Destructeur",
-				"year": 1985,
-				"duration": 125
+				"titre": "Avatar",
+				"duree": 162
 			})
 			.done(function(filmJSONResponse) {
 					console.log("Film added:")
