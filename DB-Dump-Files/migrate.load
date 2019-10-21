@@ -1,0 +1,6 @@
+LOAD DATABASE
+     FROM mysql://root:root@localhost:3306/film_simple
+     INTO postgresql://postgres:isnarraper@127.0.0.1:5432/convertTest
+     
+ WITH include drop, create tables, no truncate,
+      create indexes, reset sequences, foreign keys;

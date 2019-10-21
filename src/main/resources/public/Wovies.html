@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang='fr'>
+	<head>
+		<meta charset="UTF-8">
+		<title>Wovie</title>
+		
+		<link rel="shortcut icon" type="image/x-icon" href="img/film-xxl.ico">
+		<link rel="stylesheet" type="text/css" title="Wovies" href="css/Wovies.css">
+		<meta name="description" content="Films">
+		<script
+		  src="https://code.jquery.com/jquery-3.4.1.min.js"
+		  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+		  crossorigin="anonymous">
+		</script>
+		<script type="text/javascript" src="js/get.js"></script>
+	</head>
+	<body>
+		<header>
+			<img src="img/cinema2.jpg" id="main_pic" alt="Films">
+			
+			<h1>Dictionnaire films depuis 1888</h1>
+		</header>
+		
+			<div>
+		
+				<h2>Rechercher<br></h2>
+			
+				  <form>              
+						<p>Genre :</p>
+						<select name="par Genre">
+							<option value="Action">Action</option>
+							<option value="Romance">Romance</option>
+							<option value="Comédie">Comédie</option>
+							<option value="Science-Fiction">SF</option>
+						</select>
+						
+						<p>Titre : </p>
+						<input type="text" size=30 placeholder="Entrer le titre du film" />
+
+						<p><br>Réalisateur : </p>
+						<input type="text" size=30 placeholder="Entrer le nom du réalisateur" />
+
+						<p><br>Année : </p>
+						<input type="text" size=30 placeholder="Entrer l'année du film" />
+
+				 </form>
+				<p><br></p>
+				<input id="formFilm" type="submit" value="Valider">
+				
+				<ul id="listFilm">
+				</ul>
+
+			</div>
+				
+	</body>
+</html>

@@ -4,6 +4,10 @@ public class Place {
 	private Integer id;
 	private boolean disponible;
 	
+	public Place() {
+		super();
+	}
+	
 	public Place(Integer id, boolean disponible) {
 		super();
 		this.id = id;

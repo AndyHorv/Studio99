@@ -13,6 +13,10 @@ public class Seance implements Serializable {
 	private LocalDate timestamp;
 	private Integer debut;
 	
+	public Seance() {
+		super();
+	}
+	
 	public Seance(Integer id, LocalDate timestamp, Integer debut) {
 		super();
 		this.id = id;

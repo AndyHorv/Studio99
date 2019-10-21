@@ -4,6 +4,10 @@ public class Salle {
 
 	private Integer numero;
 
+	public Salle() {
+		super();
+	}
+	
 	public Salle(Integer numero) {
 		super();
 		this.numero = numero;
