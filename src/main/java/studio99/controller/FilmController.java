@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import studio99.persistence.entity.Film;
-import studio99.persitence.repo.FilmRepository;
+import studio99.persistence.repo.FilmRepository;
 
 @RestController
 @RequestMapping("api/film")

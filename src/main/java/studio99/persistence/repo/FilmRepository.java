@@ -1,4 +1,4 @@
-package studio99.persitence.repo;
+package studio99.persistence.repo;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
