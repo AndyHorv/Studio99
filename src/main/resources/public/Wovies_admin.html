@@ -2,7 +2,7 @@
 <html lang='fr'>
 	<head>
 		<meta charset="UTF-8">
-		<title>Résultats - Wovies</title>
+		<title>Ajout Films - Wovie</title>
 		
 		<link rel="shortcut icon" type="image/x-icon" href="css/film-xxl.ico">
 		<link rel="stylesheet" type="text/css" title="Wovies" href="css/Wovies.css">
@@ -14,6 +14,24 @@
 		</script>
 	</head>
 	<body>
+		<img src="img/Hollywood-Night.jpg" id="main_pic" alt="Films">
+		
+		<h1>Ajout de Films dans la base de données</h1>
+		
+		
+		<p>Titre du film à ajouter : </p>
+						<input type="text" size=30 placeholder="Entrer le titre du film" />
+
+					
+						<p><br>Année de sortie du film : </p>
+						<input type="text" size=30 placeholder="Entrer l'année du film" />
+
+				 </form>
+				<p><br></p>
+				<input id="formFilm" type="submit" value="Ajouter">
+				
+			
+	
 		<script>
 			var urlFilmRestApi = "http://localhost:8080/api/film"
 			$.post(urlFilmRestApi, {
