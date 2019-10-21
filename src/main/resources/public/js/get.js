@@ -11,7 +11,7 @@ function displayOneFilmMore(film){
 	console.log("Display film:")
 	console.log(film)
 	var filmHTML = 	$("<li></li>").text(
-			film['titre'] + '(' 
+			film['titre'] + ' (' 
 			+  film['duree'] + 'min)'
 			)
 	$("#listFilm").append(filmHTML)
@@ -43,6 +43,6 @@ $(window).on('load',function(){
 	$("#formFilm").submit(function(event) {
 		// prevent default submit mechanism
 		event.preventDefault()
-		postFilm()
+		//postFilm()
 	})
 })
