@@ -24,9 +24,7 @@ h1 {
 h2 {
    color:blue; 
    font-family: compact, Arial, serif;
-   
 
-   
 }
 
 h4 {
@@ -37,9 +35,8 @@ h4 {
 
 #main_pic {
 	width: 100%;
-	content: url(Hollywood-day.jpg);	
-	background-image: center;
-	background-image: fixed;	
+	content: url(../img/Hollywood-day.jpg);	
+	
 }
 
 #bienvenue{
