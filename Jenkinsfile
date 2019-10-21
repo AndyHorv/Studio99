@@ -25,7 +25,7 @@ pipeline {
         }
         stage('deliver'){
             steps{
-                bat "copy ./target/Studio99-0.0.1-SNAPSHOT.jar C:/Users/User/ProjetDeFin/DeliveryLocation/"
+                bat "xcopy /target/Studio99-0.0.1-SNAPSHOT.jar C:/Users/User/ProjetDeFin/DeliveryLocation/"
             }
         }
     }
