@@ -19,20 +19,20 @@
 		
 		<h1>Ajout de Films dans la base de données</h1>
 		
+		<form>
+			<p>Titre du film à ajouter : </p>
+			<input id="titre" type="text" size=30 placeholder="Entrer le titre du film" />
 		
-		<p>Titre du film à ajouter : </p>
-						<input id="titre" type="text" size=30 placeholder="Entrer le titre du film" />
-
-					
-						<p><br>Année de sortie du film : </p>
-						<input id="duree" type="text" size=30 placeholder="Entrer l'année du film" />
-
-				 </form>
-				<p><br></p>
-				<input id="formFilm" type="submit" value="Ajouter">
-				
+			<p><br>Durée du film : </p>
+			<input id="duree" type="text" size=30 placeholder="Entrer la durée du film" />
 			
-	
+			<p><br>Année de sortie du film : </p>
+			<input id="date" type="text" size=4 placeholder="Entrer l'année du film" />
+
+		</form>
+		<p><br></p>
+		<input id="formFilm" type="submit" value="Ajouter">
+
 		<script>
 			var urlFilmRestApi = "api/film"
 			$.post(urlFilmRestApi, {

@@ -3,7 +3,8 @@ function postFilm(){
 	// retrieve data from form as a JSon
 	var film = {
 			titre: $('#titre').val(),
-			duree:  $('#duree').val()
+			duree:  $('#duree').val(),
+			date: $('#date').val()
 	}
 	var filmJSON = JSON.stringify(film)
 	console.log("Film sent:")
