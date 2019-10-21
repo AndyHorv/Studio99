@@ -6,6 +6,10 @@ body {
 	margin-right: auto;
 }
 
+#Dark 
+{
+	position : center-left
+}
 p {
     color: rgb(30, 145, 255);
     font-size: : 30px;
@@ -33,6 +37,8 @@ h4 {
 
 #main_pic {
 	width: 100%;
+	content	: url(wallE.jpg);
+	
 }
 
 #bienvenue{

@@ -5,10 +5,6 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
-#Dark 
-{
-	position : center-left
-}
 
 p {
     color: blue;
@@ -41,6 +37,9 @@ h4 {
 
 #main_pic {
 	width: 100%;
+	content: url(Hollywood-day.jpg);	
+	background-image: center;
+	background-image: fixed;	
 }
 
 #bienvenue{
