@@ -12,7 +12,7 @@ function displayOneFilmMore(film){
 	console.log(film)
 	var filmHTML = 	$("<li></li>").text(
 			film['titre'] + '(' 
-			+  film['duree'] + ')'
+			+  film['duree'] + 'min)'
 			)
 	$("#listFilm").append(filmHTML)
 }
