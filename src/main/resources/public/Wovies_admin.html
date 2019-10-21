@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<title>Ajout Films - Wovie</title>
 		
-		<link rel="shortcut icon" type="image/x-icon" href="css/film-xxl.ico">
+		<link rel="shortcut icon" type="image/x-icon" href="img/strip.png">
 		<link rel="stylesheet" type="text/css" title="Wovies" href="css/Wovies.css">
 		<meta name="description" content="Films">
 		<script
@@ -12,6 +12,7 @@
 		  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
 		  crossorigin="anonymous">
 		</script>
+		<script type="text/javascript" src="js/post.js"></script>
 	</head>
 	<body>
 		<img src="img/Hollywood-Night.jpg" id="main_pic" alt="Films">
@@ -20,11 +21,11 @@
 		
 		
 		<p>Titre du film à ajouter : </p>
-						<input type="text" size=30 placeholder="Entrer le titre du film" />
+						<input id="titre" type="text" size=30 placeholder="Entrer le titre du film" />
 
 					
 						<p><br>Année de sortie du film : </p>
-						<input type="text" size=30 placeholder="Entrer l'année du film" />
+						<input id="duree" type="text" size=30 placeholder="Entrer l'année du film" />
 
 				 </form>
 				<p><br></p>
@@ -33,7 +34,7 @@
 			
 	
 		<script>
-			var urlFilmRestApi = "http://localhost:8080/api/film"
+			var urlFilmRestApi = "api/film"
 			$.post(urlFilmRestApi, {
 				"titre": "Avatar",
 				"duree": 162
