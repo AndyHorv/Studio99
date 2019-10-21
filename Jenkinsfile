@@ -25,7 +25,7 @@ pipeline {
         }
         stage('deliver'){
             steps{
-                copy C:\Users\User\.jenkins\workspace\ProjetDeFino\target\Studio99-0.0.1-SNAPSHOT.jar C:\Users\User\ProjetDeFin\DeliveryLocation
+                bat "copy C:\Users\User\.jenkins\workspace\ProjetDeFino\target\Studio99-0.0.1-SNAPSHOT.jar C:\Users\User\ProjetDeFin\DeliveryLocation"
             }
         }
     }
