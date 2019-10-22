@@ -1,11 +1,10 @@
 
-var urlFilmRestApi = "http://localhost:8080/api/film"
+var urlFilmRestApi = "api/film"
 
 $.ajaxSetup({
 	contentType:"application/json; charset=utf-8"
 })
 	
-
 // display data in the HTML
 function displayOneFilmMore(film){
 	console.log("Display film:")
